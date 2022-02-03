@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#73620D</color>
+    <color name="purple_700">#8C7216</color>
+    <color name="teal_200">#1A5DE1</color>
+    <color name="teal_700">#137C7B</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="grayElsesMessages">#dddddd</color>
+    <color name="greenMyMessages">#2e8bc0</color>
+</resources>

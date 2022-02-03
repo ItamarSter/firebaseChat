@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/user_item_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginTop="10dp"
+    android:backgroundTint="#eeeeee"
+    android:background="@drawable/user_item_shape">
+
+    <ProgressBar
+        android:translationZ="3dp"
+        android:id="@+id/progressBarUserImage"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="@+id/cardView"
+        app:layout_constraintTop_toTopOf="@+id/cardView" />
+    <TextView
+        android:id="@+id/textViewUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="User Name"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/cardView"
+        app:layout_constraintTop_toTopOf="@+id/cardView" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:cardCornerRadius="25dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="#D1B8B8"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_launcher_foreground" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/newMessages"
+        android:layout_width="80dp"
+        app:cardCornerRadius="21dp"
+        android:layout_height="0dp"
+        android:layout_margin="10dp"
+        android:visibility="invisible"
+        android:backgroundTint="#ffff00"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="visible"/>
+
+    <TextView
+        android:id="@+id/textViewNewMessages"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:translationZ="2dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/iconNewMessages"
+        app:layout_constraintStart_toEndOf="@+id/iconNewMessages"
+        app:layout_constraintTop_toTopOf="@+id/iconNewMessages"
+        tools:visibility="visible" />
+    <ImageView
+        android:id="@+id/iconNewMessages"
+        android:layout_width="wrap_content"
+        android:translationZ="2dp"
+        android:visibility="invisible"
+        tools:visibility="visible"
+        android:src="@drawable/ic_baseline_mark_email_unread_24"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@+id/newMessages"
+        app:layout_constraintEnd_toEndOf="@+id/newMessages"
+        app:layout_constraintBottom_toBottomOf="@+id/newMessages"
+        app:layout_constraintStart_toStartOf="@+id/newMessages"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

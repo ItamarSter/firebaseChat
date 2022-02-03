@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/USER/Desktop/hackeru/android/projects/arabic/app/src/main/res/drawable-v24/ic_baseline_arrow_back_24.xml" value="0.18333333333333332" />
+        <entry key="..\:/Users/USER/Desktop/hackeru/android/projects/arabic/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/USER/Desktop/hackeru/android/projects/arabic/app/src/main/res/drawable/current_chat_image_shape.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/USER/Desktop/hackeru/android/projects/arabic/app/src/main/res/drawable/ic_baseline_image_search_24.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/USER/Desktop/hackeru/android/projects/arabic/app/src/main/res/drawable/ic_baseline_mark_email_unread_24.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/USER/Desktop/hackeru/android/projects/arabic/app/src/main/res/drawable/ic_launcher_background.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/USER/Desktop/hackeru/android/projects/arabic/app/src/main/res/drawable/settings_image_shape.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/USER/Desktop/hackeru/android/projects/arabic/app/src/main/res/drawable/user_image_shape.xml" value="0.17592592592592593" />
+        <entry key="..\:/Users/USER/Desktop/hackeru/android/projects/arabic/app/src/main/res/drawable/user_item_shape.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/USER/Desktop/hackeru/android/projects/arabic/app/src/main/res/layout/activity_auth.xml" value="0.1796875" />
+        <entry key="..\:/Users/USER/Desktop/hackeru/android/projects/arabic/app/src/main/res/layout/activity_chat.xml" value="0.17619783616692428" />
+        <entry key="..\:/Users/USER/Desktop/hackeru/android/projects/arabic/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/USER/Desktop/hackeru/android/projects/arabic/app/src/main/res/layout/activity_settings.xml" value="0.14356884057971014" />
+        <entry key="..\:/Users/USER/Desktop/hackeru/android/projects/arabic/app/src/main/res/layout/chat_fragment.xml" value="0.1796875" />
+        <entry key="..\:/Users/USER/Desktop/hackeru/android/projects/arabic/app/src/main/res/layout/content_auth.xml" value="0.1796875" />
+        <entry key="..\:/Users/USER/Desktop/hackeru/android/projects/arabic/app/src/main/res/layout/content_chat.xml" value="0.22" />
+        <entry key="..\:/Users/USER/Desktop/hackeru/android/projects/arabic/app/src/main/res/layout/content_settings.xml" value="0.8333333333333334" />
+        <entry key="..\:/Users/USER/Desktop/hackeru/android/projects/arabic/app/src/main/res/layout/date_shape.xml" value="0.14356884057971014" />
+        <entry key="..\:/Users/USER/Desktop/hackeru/android/projects/arabic/app/src/main/res/layout/fragment_first.xml" value="0.1480978260869565" />
+        <entry key="..\:/Users/USER/Desktop/hackeru/android/projects/arabic/app/src/main/res/layout/fragment_main.xml" value="0.1796875" />
+        <entry key="..\:/Users/USER/Desktop/hackeru/android/projects/arabic/app/src/main/res/layout/message_item.xml" value="0.4466666666666667" />
+        <entry key="..\:/Users/USER/Desktop/hackeru/android/projects/arabic/app/src/main/res/layout/user_item.xml" value="0.5" />
+        <entry key="..\:/Users/USER/Desktop/hackeru/android/projects/arabic/app/src/main/res/layout/users_fragment.xml" value="0.14356884057971014" />
+        <entry key="..\:/Users/USER/Desktop/hackeru/android/projects/arabic/app/src/main/res/layout/words_fragment.xml" value="0.1796875" />
+        <entry key="..\:/Users/USER/Desktop/hackeru/android/projects/arabic/app/src/main/res/menu/main.xml" value="0.1796875" />
+        <entry key="..\:/Users/USER/Desktop/hackeru/android/projects/arabic/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/USER/Desktop/hackeru/android/projects/arabic/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.19583333333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
